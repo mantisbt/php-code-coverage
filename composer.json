@@ -28,7 +28,7 @@
         "php": "^7.0",
         "ext-dom": "*",
         "ext-xmlwriter": "*",
-        "phpunit/php-file-iterator": "^1.4.2",
+        "phpunit/php-file-iterator": "dev-mantis-1.4@dev",
         "phpunit/php-token-stream": "^2.0.1",
         "phpunit/php-text-template": "^1.2.1",
         "sebastian/code-unit-reverse-lookup": "^1.0.1",
@@ -51,5 +51,13 @@
         "branch-alias": {
             "dev-master": "5.3.x-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mantisbt/php-file-iterator",
+            "no-api": true
+        }
+    ]
+
 }
